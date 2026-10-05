@@ -6,6 +6,7 @@ with open("diario2.txt", "w", encoding="utf-8") as arquivo:
 with open("diario2.txt", "a", encoding="utf-8") as arquivo:
     arquivo.write("teste 4\n")
     arquivo.write("teste 5\n")
+    arquivo.write("teste 6\n")
 
 with open("diario2.txt", "r", encoding="utf-8") as arquivo:
     for numero, linha in enumerate(arquivo, start=1):
